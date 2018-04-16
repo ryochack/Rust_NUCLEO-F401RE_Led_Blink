@@ -1,0 +1,6 @@
+[package]
+name = "NUCLEO-F401RE_led_blink"
+version = "0.1.0"
+authors = ["ryochack <ryochack@gmail.com>"]
+
+[dependencies]
