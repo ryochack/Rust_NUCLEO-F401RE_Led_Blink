@@ -1,6 +1,15 @@
 [package]
 name = "NUCLEO-F401RE_led_blink"
-version = "0.1.0"
 authors = ["ryochack <ryochack@gmail.com>"]
+categories = ["embedded", "no-std"]
+version = "0.1.0"
 
 [dependencies]
+cortex-m = "0.4.0"
+cortex-m-rt = "0.4.0"
+panic-abort = "0.1.1"
+volatile-register = "0.2.0"
+
+[profile.release]
+debug = true
+lto = true
