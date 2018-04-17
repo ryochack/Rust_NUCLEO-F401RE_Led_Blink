@@ -1,5 +1,5 @@
 [package]
-name = "NUCLEO-F401RE_led_blink"
+name = "nucleo-f401re_led_blink"
 authors = ["ryochack <ryochack@gmail.com>"]
 categories = ["embedded", "no-std"]
 version = "0.1.0"
